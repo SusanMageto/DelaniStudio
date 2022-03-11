@@ -1,3 +1,6 @@
+.body {
+  font-size: small;
+}
 .welcome {
   background-image: url(./Images/h_img.jpg);
   background-repeat: no-repeat;
@@ -10,4 +13,12 @@
 }
 .logo {
   margin-top: 150px; 
+}
+.mouse {
+  margin-top: 10px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
