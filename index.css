@@ -13,6 +13,7 @@
 }
 .logo {
   margin-top: 150px; 
+  color: white;
 }
 .mouse {
   margin-top: 10px;
@@ -21,4 +22,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.services {
+  background-image: url(./Images/s_image.jpg);
 }
