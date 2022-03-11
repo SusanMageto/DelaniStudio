@@ -35,3 +35,18 @@
   margin-top: 60px;
   padding-top: 45px;
 }
+.card-group {
+  display: flex;
+  flex-direction: column;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+.what {
+  text-align: center;
+}
+.cards img {
+  width: 60px;
+}
+
