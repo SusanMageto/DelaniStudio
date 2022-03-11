@@ -42,11 +42,16 @@
 .cards {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .what {
   text-align: center;
 }
 .cards img {
   width: 60px;
+  justify-content: space-evenly;
 }
-
+.card1, .card2, .card3 {
+  width: 30%;
+ text-align: center;
+}
