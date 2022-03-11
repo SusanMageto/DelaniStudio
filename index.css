@@ -25,4 +25,13 @@
 }
 .services {
   background-image: url(./Images/s_image.jpg);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  height: 70vh;
+}
+.words {
+  margin-top: 60px;
+  padding-top: 45px;
 }
