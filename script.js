@@ -16,9 +16,14 @@ $(document).ready (function (){
     $(".card-body3"). toggle();
   })
 })
-$(document).ready (function (){
-  $("#im1").hover(function()
-  {
-    $("#im1"). css("background-color", "white");
-  })
-})
+// $(document).ready (function (){
+//   $("#im1").hover(function()
+//   {
+//     $("#im1"). css("background-color", "white");
+//   })
+// })
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("The paragraph was clicked.");
+  });
+});
