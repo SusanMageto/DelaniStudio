@@ -84,3 +84,7 @@
   justify-content: center;
   align-items: center;
 } */
+.contact {
+  background-image: url(./Images/c_image.jpg);
+  background-size: contain;
+}
