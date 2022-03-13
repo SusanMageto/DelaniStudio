@@ -86,11 +86,12 @@
 } */
 .contact {
   background-image: url(./Images/c_image.jpg);
-  background-size: contain;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
+  background-repeat: no-repeat;
 }
 .side {
   display: flex;
@@ -101,6 +102,7 @@
 }
 .mb-3 input {
   background-color: transparent;
+  height: 20px;
 }
 .form-control {
   border-radius: 0%;
@@ -108,7 +110,7 @@
 .message input {
   background-color: transparent;
   margin-left: 20px;
-  height: 200px;
-  text-align: top;
+  width: 540px;
+  height: 150px;
+  margin-bottom: 90px;
 }
-.
