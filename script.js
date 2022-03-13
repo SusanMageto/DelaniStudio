@@ -22,8 +22,8 @@ $(document).ready (function (){
 //     $("#im1"). css("background-color", "white");
 //   })
 // })
-$(document).ready(function(){
-  $("button").click(function(){
-    alert("The paragraph was clicked.");
-  });
+
+$('form').submit(function(e){
+  e.preventDefault();
+  alert("Hi "+ $("input[name='name']").val()+ " we have received your message. Thank you for reaching out to us.");
 });
