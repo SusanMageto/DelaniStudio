@@ -82,14 +82,6 @@
   width: 95%;
   height: auto;
 }
-/* .over {
-  position: absolute;
-  width: 95%;
-  height: auto;
-  background-color: rgba(255,255,255,0.9);
-  justify-content: center;
-  align-items: center;
-} */
 .contact {
   background-image: url(./Images/c_image.jpg);
   background-size: cover;
@@ -154,4 +146,16 @@ ul {
 }
 .card-body3 {
   display: none;
+}
+#exp1,#exp2,#exp3,#exp4{
+  display: none;
+  position: absolute;
+  color: black;
+  background-color:rgba(255,255,255,0.3);
+  top: 20px;
+  bottom: 30px;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }

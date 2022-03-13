@@ -28,10 +28,20 @@ $("#card-body3").click(function () {
   $("#card-body3").slideUp("1000");
   $("#card-3").slideDown("1000");
 });
+
+$(document).ready(function(){
+  $("#work4").mouseover(function(){
+    $("#exp1").show();
+  }).mouseout(function(){
+    $("#exp1").hide();
+  });
+});
+
+
 $("form").submit(function () {
   alert(
     "Hi " +
       $("input[name='name']").val() +
       " we have received your message. Thank you for reaching out to us."
   );
-});
+}); 
