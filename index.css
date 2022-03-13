@@ -25,6 +25,7 @@
 }
 .services {
   background-image: url(./Images/s_image.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -91,7 +92,7 @@
   flex-direction: column;
   align-items: center;
   color: white;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
 }
 .side {
   display: flex;
@@ -111,6 +112,11 @@
   background-color: transparent;
   margin-left: 20px;
   width: 540px;
-  height: 150px;
-  margin-bottom: 90px;
+  height: 170px;
+  margin-bottom: 50px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
 }
