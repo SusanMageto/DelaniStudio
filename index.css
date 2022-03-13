@@ -87,4 +87,28 @@
 .contact {
   background-image: url(./Images/c_image.jpg);
   background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
+.side {
+  display: flex;
+  flex-direction: row;
+}
+.mb-3 {
+  margin-right: 20px;
+}
+.mb-3 input {
+  background-color: transparent;
+}
+.form-control {
+  border-radius: 0%;
+}
+.message input {
+  background-color: transparent;
+  margin-left: 20px;
+  height: 200px;
+  text-align: top;
+}
+.
