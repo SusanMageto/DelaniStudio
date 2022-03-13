@@ -16,14 +16,6 @@ $(document).ready (function (){
     $(".card-body3"). toggle();
   })
 })
-// $(document).ready (function (){
-//   $("#im1").hover(function()
-//   {
-//     $("#im1"). css("background-color", "white");
-//   })
-// })
-
-$('form').submit(function(e){
-  e.preventDefault();
+$('form').submit(function(){
   alert("Hi "+ $("input[name='name']").val()+ " we have received your message. Thank you for reaching out to us.");
 });
