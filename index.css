@@ -14,9 +14,10 @@
 .logo {
   margin-top: 150px; 
   color: white;
+  margin-bottom: 150px;
 }
 .mouse {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .about {
   display: flex;
