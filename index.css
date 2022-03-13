@@ -23,6 +23,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .services {
   background-image: url(./Images/s_image.jpg);
@@ -40,11 +42,13 @@
 .card-group {
   display: flex;
   flex-direction: column;
+  margin-top: 80px;
 }
 .cards {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 .what {
   text-align: center;
@@ -94,6 +98,7 @@
   align-items: center;
   color: white;
   background-repeat: no-repeat; 
+  margin-top: 50px;
 }
 .side {
   display: flex;
@@ -140,4 +145,13 @@ ul {
 .icons {
   margin-top: 30px;
   text-align: center;
+}
+.card-body1 {
+  display: none;
+}
+.card-body2 {
+  display: none;
+}
+.card-body3 {
+  display: none;
 }
