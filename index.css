@@ -71,18 +71,12 @@
   flex-direction: row;
   margin-bottom: 30px;
 }
-.container1 img {
-  width: 95%;
-  height: auto;
-}
+
 .container2 {
   display: flex;
   flex-direction: row;
 }
-.container2 img {
-  width: 95%;
-  height: auto;
-}
+
 .contact {
   background-image: url(./Images/c_image.jpg);
   background-size: cover;
@@ -160,3 +154,101 @@ ul {
   width: 100%;
   text-align: center;
 }
+.form-control::placeholder {
+  color: white;
+}
+#message::placeholder {
+  color: white;
+}
+.one {
+  background-image: url(./Images/work4.jpg);
+  background: cover;
+  height: 40vh;
+  width: 98%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two {
+  background-image: url(./Images/work3.jpg);
+  background: cover;
+  height: 40vh;
+  width: 98%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.three {
+  background-image: url(./Images/work2.jpg);
+  background: cover;
+  height: 40vh;
+  width: 98%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.four {
+  background-image: url(./Images/work1.jpg);
+  background: cover;
+  height: 40vh;
+  width: 98%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.five {
+  background-image: url(./Images/work5.jpg);
+  background: cover;
+  height: 40vh;
+  width: 98%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.six {
+  background-image: url(./Images/work6.jpg);
+  background: cover;
+  height: 40vh;
+  width: 98%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seven {
+  background-image: url(./Images/work7.jpg);
+  background: cover;
+  height: 40vh;
+  width: 98%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eight {
+  background-image: url(./Images/work8.jpg);
+  background: cover;
+  height: 40vh;
+  width: 98%;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uno {
+  background-color: rgba(255,255,255,0.3);
+  height: 90%;
+  width: 90%;
+  display: none;
+}
+.col-lg-3 {
+  margin-bottom: 20px;
+}
+
+
+
